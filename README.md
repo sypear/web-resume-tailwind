@@ -1,5 +1,4 @@
 # Tailwind CSS를 이용한 웹 이력서 만들기
-![32](https://user-images.githubusercontent.com/105365737/193472886-191355b7-7092-4fed-a479-e7d24b714caa.gif)
 * HTML과 Tailwind CSS를 이용해서 만든 웹 이력서입니다.
   * **`input.css`, `dist/output.css 파일`은 Tailwind CSS 설치 시 생성된 파일로 스타일을 위해 사용한 CSS 파일이 아닙니다.**
 

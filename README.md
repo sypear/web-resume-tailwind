@@ -34,3 +34,10 @@
 5. 컴파일된 CSS 파일을 HTML 파일 <head> 태그 내에 추가하고 Tailwind CSS를 사용합니다.
 
 `<link href="/dist/output.css" rel="stylesheet">`
+
+<br>
+
+## 이미지 출처
+프로필, 배경 이미지는 Unsplash의 무료 이미지를 사용하였습니다.
+* 프로필 이미지 출처 : <a href="https://unsplash.com/photos/n5aE6hOY6do">Oladimeji Odunsi(Unsplash)</a>
+* 배경 이미지 출처 : <a href="https://unsplash.com/photos/4ELcmuV3osk">Presetbase Lightroom Presets(Unsplash)</a>

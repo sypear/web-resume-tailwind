@@ -5,9 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind Resume</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/be4e817740.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <section>
+        <div class="flex flex-col pt-6 pb-12 bg-center bg-no-repeat bg-cover md:pt-8 md:pb-14 lg:pt-10 lg:pb-16" style="background-image: url('./images/background.jpg')">
+            <nav class="flex flex-row justify-between px-8 text-white md:text-xl lg:text-2xl md:px-12 lg:px-16">
+                <h1 class="font-bold">
+                    R<span class="text-[#10af88]">esume</span>
+                </h1>
+                <ul class="flex flex-row">
+                    <li class="px-2 md:px-8 hover:text-[#ccc] ease-out duration-150">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="px-2 md:px-8 hover:text-[#ccc] ease-out duration-150">
+                        <a href="#project">Project</a>
+                    </li>
+                    <li class="px-2 md:px-8 hover:text-[#ccc] ease-out duration-150">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
 
+            <div class="flex flex-col">
+                <figure class="mt-12 mb-8 md:mb-12 md:mt-20">
+                    <img class="w-2/4 max-w-[350px] mx-auto mb-6 rounded-full md:mb-10" src="./images/profile.jpg" alt="">
+                    <figcaption class="text-center">
+                        <h2 class="text-[#10af88] text-4xl mb-2 font-bold md:text-5xl md:mb-6 lg:text-6xl">
+                            배승연
+                        </h2>
+                        <p class="text-white md:text-xl lg:text-2xl">
+                            주니어 프론트엔드 개발자
+                        </p>
+                    </figcaption>
+                </figure>
+                <div class="flex justify-center">
+                    <a href="#" class="mr-3 md:mr-6">
+                        <i class="text-2xl text-white md:text-4xl fa-brands fa-github"></i>
+                    </a>
+                    <a href="#">
+                        <i class="text-2xl text-white md:text-4xl fa-solid fa-house"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
